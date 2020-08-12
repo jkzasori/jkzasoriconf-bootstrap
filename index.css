@@ -1,6 +1,15 @@
 .text-conf {
     color: #97c93e !important;
 }
+.btn-conf {
+    background-color: #97c93e !important;
+    color: white;
+}
+
+.btn-conf:hover {
+    background-color: #82ad36 !important;
+}
+
 #header img{
     width: 80px;
     height: 50px;
