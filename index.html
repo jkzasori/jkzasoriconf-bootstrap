@@ -39,7 +39,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-conf" href="#">Compra tickets</a>
+              <a class="nav-link text-conf" data-toggle="modal" data-target="#modalCompra" href="#">Compra tickets</a>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@
                     conferencistas de primer nivel que tenemos para ti. ¡Te esperamos!
                   </p>
                   <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                  <button type="button" class="btn btn-conf">Compar tickets</button>
+                  <button type="button" class="btn btn-conf" data-toggle="modal" data-target="#modalCompra">Compar tickets</button>
                 </div>
               </div>
             </div>
@@ -260,6 +260,28 @@
       </div>
     </footer>
     <!-- /Footer-->
+    <!--Modal-->
+    <div class="modal fade" id="modalCompra"  data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Modal-->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
